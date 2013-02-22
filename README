@@ -1,1 +1,6 @@
-Hello world
+mathpad:
+This is an attempt to make an interface for writing maths equations using just the keyboard. All the web based formula/equation creators I could find, at the time of writing this software, required at least some kind of mouse input. The hope with this idea was to create something fluid which allowed the user to intuitively type the equation. 
+
+The software displays an onscreen keyboard which indicates which key has been pressed. User input builds up a LateX string. The program uses the MathJax library to update the screen after every user input.
+
+Very buggy and incomplete.
