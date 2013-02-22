@@ -1,0 +1,214 @@
+﻿/***************************************
+   Default Styles
+************************************** */
+//br.clear {clear: both;}
+
+
+.wrapper{
+width: 960px;
+//margin: auto;
+}
+.header{
+margin:20px;
+text-align: center;
+padding: 30px;
+}
+.leftPanel{
+position: absolute;
+left: 0px;
+width: 100px;
+}
+.rightPanel{
+position: absolute;
+left: 1150px;
+width: 100px;
+font-weight: bold;
+}
+.display{
+position: relative;
+left: 120px;
+width: 1000px;
+height: 100px;
+line-height: 100px;
+overflow: auto;
+text-align: center;
+font-size:large;
+display: table;
+vertical-align: middle;
+border-left-width: 3px;
+border-right-width: 3px;
+border-top-width: 3px;
+border-bottom-width: 3px;
+border-style: solid;
+border-color: #cc9900;
+padding-top: 0px;
+margin-bottom:5px;
+background: white;
+border-radius:5px;
+}
+
+.keyBoard{
+position: relative;
+left: 120px;
+width: 1000px;
+float: left;
+//height: 300px;
+border-left-width: 3px;
+border-right-width: 3px;
+border-top-width: 3px;
+border-bottom-width: 3px;
+border-style: solid;
+border-color: blue;
+border-radius:5px;
+padding-top: 5px;
+
+}
+
+.key{
+position:relative;
+left:40px;
+width:70px;
+height:70px;
+display:inline-block;
+//float:left;
+border:2px solid;
+border-radius:10px;
+//-moz-border-radius:25px; /* Firefox 3.6 and earlier */
+}
+.back{
+	position: absolute;
+	font-size: large; 
+	background-color: orange; 
+	text-align: center;
+	line-height:70px;
+	height: 70px; 
+	width: 70px; 
+	z-index: 1;
+	border-radius: 10px;
+}
+
+.front{
+	position: absolute;
+	z-index: 2;
+	color: black;
+	//background-color: black; 
+	text-color: green;
+	border-radius: 10px; 
+	font-size: large; 
+	font-weight: bold;
+	opacity:0.3; 
+	height:70px; 
+	width:70px;
+}
+body {
+ font: 100.5% Verdana, Helvetica, Arial, sans-serif;
+  color: #000;
+  background: #ffa319;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.3em;
+  margin-bottom: .5em;
+}
+h3 {
+  font-size: 1.1em;
+  margin-bottom: 0;
+}
+
+.keyPressColour {
+	position: relative;
+		top: 1px;
+		left: 1px;
+		border-color: #e5e5e5;
+	color:#00FF00;
+	//background-color:#6495ed;
+}
+
+.horizontal {
+  float: left;
+  list-style: none;
+  margin: 10px;
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+#container {
+margin: 100px auto;
+width: 688px;
+}
+#write {
+margin: 0 0 5px;
+padding: 5px;
+width: 671px;
+height: 200px;
+font: 1em/1.5 Verdana, Sans-Serif;
+background: #fff;
+border: 1px solid #f9f9f9;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+#keyboard {
+//text-align: center;
+float: left;
+margin: 0;
+padding: 0;
+list-style: none;
+border: 5px solid #37da12;
+}
+	#keyboard li {
+	float: left;
+	//display: inline;
+	margin: 0 5px 5px 0;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background: #995;
+	border-radius: 5px;
+	border: 1px solid #f9f9f9;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	}
+		.capslock, .tab, .left-shift {
+		clear: left;
+		}
+			#keyboard .tab, #keyboard .delete {
+			width: 80px;
+			}
+			#keyboard .capslock {
+			width: 105px;
+			}
+			#keyboard .return {
+			width: 102px;
+			}
+			#keyboard .left-shift {
+			width: 137px;
+			}
+			#keyboard .right-shift {
+			width: 137px;
+			}
+		.lastitem {
+		margin-right: 0;
+		}
+		.uppercase {
+		text-transform: uppercase;
+		}
+		#keyboard .space {
+		//clear: left;
+		width: 950px;
+		}
+		#keyboard li:hover {
+		position: relative;
+		top: 1px;
+		left: 1px;
+		border-color: #e5e5e5;
+		cursor: pointer;
+		}
